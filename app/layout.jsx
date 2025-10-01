@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import "react-toastify/dist/ReactToastify.css";
 import "@/assets/styles/globals.css";
 import "photoswipe/dist/photoswipe.css";
+import Footer from "@/components/Footer";
 
 export const metadata = {
 	title: "PropertyPulse",
@@ -15,6 +16,7 @@ const MainLayout = ({ children }) => {
 			<body>
 				<Navbar />
 				<main>{children}</main>
+                <Footer />
 			</body>
 		</html>
 	);
