@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { text } from "stream/consumers";
 
 const InfoBox = ({
 	heading,

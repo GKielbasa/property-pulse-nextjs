@@ -1,7 +1,7 @@
 import Navbar from "@/components/Navbar";
-import "react-toastify/dist/ReactToastify.css";
+// import "react-toastify/dist/ReactToastify.css";
 import "@/assets/styles/globals.css";
-import "photoswipe/dist/photoswipe.css";
+// import "photoswipe/dist/photoswipe.css";
 import Footer from "@/components/Footer";
 
 export const metadata = {

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { FaExclamationTriangle } from "react-icons/fa";
 
-const Notfound = ({}) => {
+const Notfound = () => {
 	return (
 		<section className="bg-blue-50 min-h-screen flex-grow">
 			<div className="container m-auto max-w-2xl py-24">
